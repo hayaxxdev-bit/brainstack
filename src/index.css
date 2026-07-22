@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@utility bg-dot-grid {
+  background-color: #0f172a;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 overflow-hidden select-none;
+  margin: 0;
+  padding: 0;
+}
